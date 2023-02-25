@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
+
+/*　ナビゲーションバー　navbar-static */
+.menu{
+    margin: 0;
+}
+
+/* top-image */
+
+.top-image {
+  padding: 500px 0 0 0;
+}
+
+
+.top-image h1#title {
+  margin: 0 0 200px 0;
+  font-size: 50px;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+
+/* top-image メディアクエリの設定 */
+@media (max-width: 450px) {
+
+  .top-image {
+    padding: 200px 0 0 0;
+  }
+  .top-image h1#title{
+    font-size: 50px
+  }
+  .top-image p {
+    font-size: 16px
+  }
+}
+
+
+/* works */
+.works {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.works h1 {
+  margin: 100px 0 20px 0;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.works h2 {
+  margin: 25px 0 20px 0;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+/* footer */
+.footer {
+  padding: 15px 0 25px 0;
+  background-color: rgb(27, 27, 26);
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.tel {
+  padding-bottom: 15px;
+}
+
+.footer address {
+  margin: 0 0 3px 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* form */
+.form-control {
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .formarea {
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+  .regist_button {
+    margin-left: 125px;
+  }
+}
+
+.copyarea {
+  padding: 30px 0 0 0;
+  background-color: rgb(27, 27, 26);
+  color: #fff;
+}
+
+/* PAGE TOP */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80%;
+}
+
+#page-top a {
+  background: #666;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  padding: 25px 0;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+}
+
+#page-top a:hover {
+  text-decoration: none;
+  background: #999;
+}

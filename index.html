@@ -1,27 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>My page</title>
-</head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116063973-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116063973-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Wassy Portfolio</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper.css">
+
+  </head>
 <body>
-    <section class="wrapper">
-        <div class="container">
-            <div class="content">
-                <div class="content-item">
-                    <img src="./img/wassy.png" class="image">
-                </div>
-                <div class="content-item">
-                    <div class="text">
-                        <h2 class="heading">VISION</h2>
-                        <p>テキスト</p>
-                    </div>
-                </div>
-            </div>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <a class="navbar-brand" href="#">Wassy's Portfolio</a>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#works">Belongs</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#awards">Awards</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+       			<li><a href="https://github.com/wassy310" target="_blank">Github</a></li>
+       			<li><a href="https://twitter.com/waaaa5267" target="_blank">Twitter</a></li>
+       		</ul>
+
         </div>
-    </section>
+      </div>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav>
+
+<div id="home"></div>
+  <div class="top-image">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h1 id="title">Wassy's Portfolio</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="works">
+  <div class="works">
+    <div class="container">
+      <div class="col-sm-12">
+        <h1>Belongs</h1>
+        <u>Department of Information and Communication Systems Engineering at NITOC (Student)</u><br>
+        <u>Robot Production Committee "夢創人(Muso-jin)", Control group</u><br>
+        <u>ROS JAPAN UG</u><br>
+        <u>Nonprofit corporation Ubuntu - Supporting member</u>
+      </div>
+
+<div class="skills">
+  <div id="skill">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Skills</h1>
+          <h2>Languages</h2>
+          <p>
+            Japanese, English(Amer.), Chinese, Sign languages
+          </p>
+          <h2>Front</h2>
+          <p>
+            HTML, CSS, JavaScript, TypeScript
+          </p>
+          <h2>Back</h2>
+          <p>
+            <b>Mobile Dev.</b>: Kotlin, Dart<br>
+            <b>Server side</b>: C/C++, Python, Java
+          </p>
+          <h2>Tools</h2>
+          <h3>Main IDE</h3>
+          <p>
+            Visual Studio, Visual Studio Code, Keil Studio
+          </p>
+          <h3>Hardware</h3>
+          <p>
+            Arduino, Raspberry Pi, Jetson, STM32, ESP32
+          </p>
+          <h3>OS</h3>
+          <p>
+            Windows(main pc), WSL
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="products">
+  <div class="products">
+    <div class="container">
+      <div class="col-sm-12">
+        <h1>Products</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="awards">
+  <div class="awards">
+    <div class="container">
+      <div class="col-sm-12">
+        <h1>Awards</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper"></div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+</div>
+</div>
+</div>
+
+<p id="page-top"><a href="#">PAGE TOP</a></p>
+
+<!--footer-->
+<div class="footer">
+<div class="container">
+<div class="row">
+
+<div class="col-sm-4">
+  <h3>Wassy</h3>
+  <address>
+    Okinawa, Japan
+  </address>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
