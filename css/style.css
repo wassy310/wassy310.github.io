@@ -41,6 +41,11 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   font-family: 'sans-serif';
   line-height: 1.2;
 }
+.about h2 {
+  margin: 25px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
 
 .works {
   padding: 100px 0 100px 0;
