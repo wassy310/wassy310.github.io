@@ -2,17 +2,13 @@
 
 body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 
-/*　ナビゲーションバー　navbar-static */
 .menu{
     margin: 0;
 }
 
-/* top-image */
-
 .top-image {
   padding: 500px 0 0 0;
 }
-
 
 .top-image h1#title {
   margin: 0 0 200px 0;
@@ -35,23 +31,67 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   }
 }
 
-
-/* works */
 .works {
   padding: 100px 0 100px 0;
   background-color: #fff;
   text-align: center;
 }
-
 .works h1 {
   margin: 100px 0 20px 0;
-  font-size: 40px;
+  font-family: 'sans-serif';
   line-height: 1.2;
 }
 
-.works h2 {
+.skills {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.skills h1 {
+  margin: 100px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+.skills h2 {
   margin: 25px 0 20px 0;
-  font-size: 30px;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+.skills h3 {
+  margin: 25px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+
+.products {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.products h1 {
+  margin: 100px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+.products h2 {
+  margin: 25px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+
+.awards {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.awards h1 {
+  margin: 100px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+.awards h2 {
+  margin: 25px 0 20px 0;
+  font-family: 'sans-serif';
   line-height: 1.2;
 }
 
