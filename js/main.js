@@ -28,12 +28,6 @@ $(function() {
 });
 
 $(function() {
-  $(window).scroll(function () {
-  });
-});
-
-//swiper初期化
-$(function() {
   var mySwiper = new Swiper ('.swiper-container', {
 	loop: true,
   slidesPerView: 2,
