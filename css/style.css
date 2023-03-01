@@ -17,7 +17,6 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   line-height: 1.2;
 }
 
-/* top-image メディアクエリの設定 */
 @media (max-width: 450px) {
 
   .top-image {
@@ -139,7 +138,6 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   line-height: 1.6;
 }
 
-/* form */
 .form-control {
   margin-bottom: 5px;
 }
@@ -160,7 +158,6 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   color: #fff;
 }
 
-/* PAGE TOP */
 #page-top {
   position: fixed;
   bottom: 20px;
