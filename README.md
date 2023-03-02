@@ -1,6 +1,6 @@
 # Wassy's Portfolio
 
-<div style="text-align: center;">
+<div align="center">
     <h2>
         Click here !<br>
         ↓↓↓<br>
