@@ -119,6 +119,22 @@ body {
   line-height: 1.2;
 }
 
+.qualifications {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.qualifications h1 {
+  margin: 100px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+.qualifications h2 {
+  margin: 25px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+
 /* footer */
 .footer {
   padding: 15px 0 25px 0;
