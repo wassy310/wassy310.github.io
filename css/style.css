@@ -102,6 +102,11 @@ body {
   font-family: 'sans-serif';
   line-height: 1.2;
 }
+.products h3 {
+  margin: 25px 0 20px 0;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
 
 .awards {
   padding: 100px 0 100px 0;
